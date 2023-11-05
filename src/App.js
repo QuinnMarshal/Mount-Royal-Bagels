@@ -3,6 +3,7 @@ import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path='/' element = {<Home />} />
+        <Route exact path='/about' element = {<About />} />
       </Routes>
     </>
   );

@@ -10,7 +10,7 @@ function Main() {
       <p>Kelowna BC</p>
       <p>V1Y 9M9</p>
 
-      <p>Monday - Friday, 8:00 am - 2:30 pm</p>
+      <p>Monday - Friday, 8:00 am - 3:00 pm</p>
     </div>
   );
 }
