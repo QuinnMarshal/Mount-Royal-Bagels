@@ -19,8 +19,10 @@ h1 {
 .menu-container {
     margin: 0 auto;
     min-height: calc(100vh - 80px);
-    background-color: #f4ad61;
+    background-color: #dd9207;
     padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,7 +40,11 @@ h2 {
     font-weight: bold;
     margin-top: 10px;
 }
-
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
 .item {
     display: flex;
     justify-content: space-between;
@@ -48,3 +54,23 @@ h2 {
     display: flex;
     margin-top: 5px;
 }
+
+.box{
+    border: 1px solid #e79909;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Add hover effect to items */
+.box:hover {
+    background-color: #e79909;
+    transition: background-color 0.3s;
+}
+
+/* Style description */
+.box p {
+    margin: 0;
+    font-style: italic;
+}
+
+

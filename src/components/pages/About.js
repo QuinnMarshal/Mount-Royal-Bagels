@@ -9,8 +9,8 @@ function About() {
     <body className='about-body'>
         <div class="container">
             <div class="image-box">
-                <img src="images/bagelimage.png" alt="Fresh Montreal Bagels" width="100%"></img>
-                </div>
+                <img src="images/bagels.png" alt="Fresh Montreal Bagels" width="100%"></img>
+            </div>
             <div class="text-box">
                 <h2>Our Story</h2>
                 <p style={{marginBottom: 20}}>Welcome to the Mount Royal Bagel Factory, your destination for the finest Montreal style bagels in the heart of Kelowna, BC. Our journey started with a passion for the authentic taste of Montreal bagels, and a commitment to bringing that tradition to the beautiful Okanagan Valley.</p>
