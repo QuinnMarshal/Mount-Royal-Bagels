@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    position: fixed;
+    position: scroll;
     min-height: calc(100vh - 80px);
     width: 100%;
     display: flex;

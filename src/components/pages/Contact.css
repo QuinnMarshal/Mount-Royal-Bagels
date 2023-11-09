@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #c54343;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.contact-container {
+    margin: 0 auto;
+    min-height: calc(100vh - 80px);
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #f53f2e;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.map-section,
+.image-section {
+    margin-top: 20px;
+}
+
+.map-section iframe,
+.image-section img {
+    width: 100%;
+    border: 1px solid #f6f0f0;
+    border-radius: 5px;
+}
