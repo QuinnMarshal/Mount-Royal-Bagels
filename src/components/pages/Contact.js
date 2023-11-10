@@ -29,9 +29,9 @@ function Contact() {
                             </a>
                         </div>
                         <div class="contact-item">
-                            <a href="mailto:ppazad@hotmail.com">
+                            <a href="mailto:ppazad@hotmail.com" target="_blank" rel='noreferrer'>
                                 <p>Email Us</p>
-                                <i class="far fa-envelope"></i>
+                                <i class="fa fa-envelope"></i>
                             </a>
                         </div>
                         <div class="contact-item">
