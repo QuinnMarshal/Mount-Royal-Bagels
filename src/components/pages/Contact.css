@@ -47,14 +47,52 @@ h1 {
     text-decoration: none;
 }
 
-.map-section,
-.image-section {
+.map-section{
     margin-top: 20px;
 }
 
-.map-section iframe,
-.image-section img {
+.map-section iframe{
     width: 100%;
     border: 1px solid #f6f0f0;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container {
+        margin: 0 auto;
+        min-height: calc(100vh - 80px);
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f55c4e;
+    }
+    .map-section{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row; /* Horizontal layout */
+        align-items: center; /* Vertically align items */
+        margin: 0;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column; /* vert layout */
+        align-items: center; /* Vertically align items */
+        margin-bottom: 0px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+    .contact-item{
+        padding-bottom: 40px;
+    }
 }

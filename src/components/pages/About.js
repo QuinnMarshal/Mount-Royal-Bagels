@@ -8,9 +8,6 @@ function About() {
 
     <body className='about-body'>
         <div class="container">
-            <div class="image-box">
-                <img src="images/bagels.png" alt="Fresh Montreal Bagels" width="100%"></img>
-            </div>
             <div class="text-box">
                 <h2>Our Story</h2>
                 <p style={{marginBottom: 20, wordSpacing: "1px", lineHeight: "1.4"}}>Welcome to the Mount Royal Bagel Factory, where the enticing aroma of freshly baked Montreal-style bagels welcomes you to Kelowna, BC. Our story began with a love for the traditional taste of Montreal bagels, driving our commitment to bring that iconic flavor to the stunning Okanagan Valley.</p>
@@ -23,6 +20,9 @@ function About() {
                 <h2>Contact Us</h2>
                 <p style={{marginBottom:20, wordSpacing: "1px", lineHeight: "1.4"}}>Your satisfaction is our priority. Should you have any inquiries, feedback, or simply want to share your bagel experience with us, please don't hesitate to reach out. We're dedicated to serving you the finest Montreal-style bagels in Kelowna and are eager to ensure your experience with us exceeds expectations.</p>
                 <a href="/contact" class="contact-button">Contact Us</a>
+            </div>
+            <div class="image-box">
+                <img src="images/bagels.png" alt="Fresh Montreal Bagels" width="100%"></img>
             </div>
             <div class="clear"></div>
             

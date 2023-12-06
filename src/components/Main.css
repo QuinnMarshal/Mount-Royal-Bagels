@@ -13,8 +13,9 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.397);
     object-fit: contain;
+    text-align: center;
   }
-  
+
   .main-container > h1 {
     color: #fff;
     font-size: 70px;
@@ -25,6 +26,8 @@
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
+    justify-content: center;
+    align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
@@ -56,14 +59,7 @@
   
     .main-container > p {
       font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
   }
