@@ -241,3 +241,15 @@
       transition: 250ms;
     }
   }
+  @media screen and (max-width: 460px) {
+    .NavbarItems {
+      position: relative;
+    }
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-1%, -6%);
+      font-size: 1.4rem;
+    }
+  }
