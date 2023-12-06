@@ -253,3 +253,15 @@
       font-size: 1.4rem;
     }
   }
+  @media screen and (max-width: 405px) {
+    .NavbarItems {
+      position: relative;
+    }
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-1%, -6%);
+      font-size: 1.2rem;
+    }
+  }
