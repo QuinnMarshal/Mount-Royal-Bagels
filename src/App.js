@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Menu from './components/pages/Menu';
 import Contact from './components/pages/Contact';
+import NotFoundPage from './components/pages/NotFoundPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/about' element = {<About />} />
         <Route exact path='/menu' element = {<Menu />} />
         <Route exact path='/contact' element = {<Contact />} />
+        <Route path='*' element = {<NotFoundPage />} />
       </Routes>
     </>
   );
